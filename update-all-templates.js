@@ -1,7 +1,7 @@
 //a throway script to change the revert to parameter in all the templates for a given api key
 const args = process.argv.slice(2)
 if (args.length != 1) {
-    console.log('use: node templates.js api-key');
+    console.log('use: node update-all-templates.js api-key');
     process.exit(0);
 }
 const apiKey = args[0]
