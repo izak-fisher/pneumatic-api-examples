@@ -29,6 +29,7 @@ const newOwner = {
     type: templateData.owners[0].type,
     source_id:targetUserId,
 }
+templateData.is_active = false;
 templateData.owners.length = 0;
 templateData.owners.push(newOwner)
 templateData.tasks = templateData.tasks.map(task =>{
