@@ -39,7 +39,7 @@ export default class Pneumatic {
             }
         )
         if (resp.ok) {
-            return true
+            return await resp.text()
         }else{
             return await resp.text()
         }
